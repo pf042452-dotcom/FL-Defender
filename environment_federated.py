@@ -1,5 +1,6 @@
 from __future__ import print_function
-from lib2to3.pgen2.tokenize import tokenize
+from tokenize import tokenize
+#from lib2to3.pgen2.tokenize import tokenize
 import numpy as np
 import torch
 import torch.nn as nn
